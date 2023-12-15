@@ -1,0 +1,13 @@
+.book-details-dialog {
+  border: none;
+  padding: 0;
+  position: relative;
+  border-radius: 0.6rem;
+
+  &::backdrop {
+    background: $bd-dark;
+  }
+  .dialog-btn {
+    @include dialog-btn(light);
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "5f7a1b8a8e6b4e001f4e7a1a",
+    "name": "New York",
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "imageUrl": "https://example.com/newyork.jpg",
+    "photos": [
+      "https://example.com/newyork/photo1.jpg",
+      "https://example.com/newyork/photo2.jpg",
+      "https://example.com/newyork/photo3.jpg"
+    ]
+  },
+  {
+    "_id": "5f7a1b8a8e6b4e001f4e7a1b",
+    "name": "London",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "imageUrl": "https://example.com/london.jpg",
+    "photos": [
+      "https://example.com/london/photo1.jpg",
+      "https://example.com/london/photo2.jpg",
+      "https://example.com/london/photo3.jpg"
+    ]
+  },
+  {
+    "_id": "5f7a1b8a8e6b4e001f4e7a1c",
+    "name": "Tokyo",
+    "latitude": 35.6895,
+    "longitude": 139.6917,
+    "imageUrl": "https://example.com/tokyo.jpg",
+    "photos": [
+      "https://example.com/tokyo/photo1.jpg",
+      "https://example.com/tokyo/photo2.jpg",
+      "https://example.com/tokyo/photo3.jpg"
+    ]
+  },
+  {
+    "_id": "5f7a1b8a8e6b4e001f4e7a1d",
+    "name": "Sydney",
+    "latitude": -33.8651,
+    "longitude": 151.2099,
+    "imageUrl": "https://example.com/sydney.jpg",
+    "photos": [
+      "https://example.com/sydney/photo1.jpg",
+      "https://example.com/sydney/photo2.jpg",
+      "https://example.com/sydney/photo3.jpg"
+    ]
+  }
+]

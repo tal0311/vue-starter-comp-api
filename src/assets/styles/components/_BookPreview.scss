@@ -1,0 +1,32 @@
+.book-preview {
+  box-shadow: 0 0 1px 1px $clr4;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+
+  .img-container {
+    position: relative;
+    .main-img {
+      border-radius: 0.6rem;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+    .fav-img {
+      height: 1.2rem;
+      width: 1.2rem;
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+  }
+
+  &.list {
+    .actions-container {
+      grid-auto-flow: column;
+      justify-content: start;
+    }
+  }
+
+  .actions-container {
+    grid-auto-flow: column;
+  }
+}

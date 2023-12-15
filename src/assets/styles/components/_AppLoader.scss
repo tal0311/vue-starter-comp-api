@@ -1,0 +1,19 @@
+.app-loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  place-content: center;
+  &:is(.book-light, .book-green, .book-stack, .books-gray) {
+    img {
+      border-radius: 50%;
+      width: 200px;
+    }
+  }
+
+  &:is(.search, .standing-books) {
+    img {
+      width: 200px;
+    }
+  }
+}

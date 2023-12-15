@@ -1,0 +1,33 @@
+// COLOR PALETTE
+$clr1: #fff;
+$clr2: #333;
+$clr3: #000;
+$clr4: #dbdbdb;
+$clr5: #2d2d2d;
+$clr6: #fbbc04;
+$clr7: #5e00cc;
+$clr8: #e3e3e3;
+
+// BACKDROP
+$bd-dark: #000000b0;
+$bd-light: #ffffffb0;
+// BORDER RADIUS
+$br: 0.5em;
+
+$text: #303133;
+
+$bs: 0 0 2px 0px #c9c9c9;
+
+// LAYOUT
+$layoutPadding: 20px;
+
+// LAYOUT BREAKPOINTS
+$break-narrow: 500px;
+$break-normal: 800px;
+$break-wide: 1920px;
+
+$padded-break-narrow: $break-narrow + $layoutPadding * 2;
+$padded-break-normal: $break-normal + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;
+
+// scroll bar
